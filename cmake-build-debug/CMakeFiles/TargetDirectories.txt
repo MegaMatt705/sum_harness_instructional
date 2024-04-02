@@ -1,0 +1,6 @@
+S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/CMakeFiles/benchmark.dir
+S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/CMakeFiles/sum_direct.dir
+S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/CMakeFiles/sum_vector.dir
+S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/CMakeFiles/sum_indirect.dir
+S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/CMakeFiles/edit_cache.dir
+S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/CMakeFiles/rebuild_cache.dir
