@@ -1,10 +1,7 @@
-#include <algorithm>
-#include <chrono>
-#include <iomanip>
 #include <iostream>
-#include <random>
 #include <vector>
-#include <string.h>
+#include <cstdint>
+#include <cstdio> // For printf
 
 void setup(int64_t N, uint64_t A[]) {
     printf("Inside sum_vector problem_setup, N=%lld\n", N);
@@ -20,4 +17,16 @@ int64_t sum(int64_t N, uint64_t A[]) {
         sum += A[i];
     }
     return sum;
+}
+
+int main() {
+    int64_t N = 5; // Example size
+    uint64_t A[N]; // Example array
+
+    setup(N, A);
+    int64_t result = sum(N, A);
+
+    printf("The sum is: %lld\n", result);
+
+    return 0;
 }

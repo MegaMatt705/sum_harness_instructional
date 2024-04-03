@@ -1,15 +1,13 @@
-#include <algorithm>
-#include <chrono>
-#include <iomanip>
 #include <iostream>
-#include <random>
 #include <vector>
-#include <string.h>
-#include <cstdlib> // For lrand48() yet doesnt work
+#include <cstdint>
+#include <cstdio> // For printf
+#include <cstdlib> // For std::rand and std::srand
+#include <ctime> // For std::time
 
 void setup(int64_t N, uint64_t A[]) {
     printf("Inside sum_indirect problem_setup, N=%lld\n", N);
-    std:srand(std::time(0)); // Seed the random number generator
+    std::srand(std::time(0)); // Seed the random number generator
     for (int64_t i = 0; i < N; ++i) {
         A[i] = std::rand() % N; // Generate a random number in the range 0 to N-1
     }
@@ -22,4 +20,16 @@ int64_t sum(int64_t N, uint64_t A[]) {
         sum += A[i];
     }
     return sum;
+}
+
+int main() {
+    int64_t N = 5; // Example size
+    uint64_t A[N]; // Example array
+
+    setup(N, A);
+    int64_t result = sum(N, A);
+
+    printf("The sum is: %lld\n", result);
+
+    return 0;
 }
