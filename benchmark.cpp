@@ -19,36 +19,41 @@ extern void setup(int64_t N, uint64_t A[]);
 extern int64_t sum(int64_t N, uint64_t A[]);
 
 /* The benchmarking program */
-int main(int argc, char** argv) 
-{
-   std::cout << std::fixed << std::setprecision(2);
+int main(int argc, char** argv) {
+    std::cout << std::fixed << std::setprecision(2);
 
 #define MAX_PROBLEM_SIZE 1 << 28  //  256M
-   std::vector<int64_t> problem_sizes{ MAX_PROBLEM_SIZE >> 5, MAX_PROBLEM_SIZE >> 4, MAX_PROBLEM_SIZE >> 3, MAX_PROBLEM_SIZE >> 2, MAX_PROBLEM_SIZE >> 1, MAX_PROBLEM_SIZE};
-   
-   std::vector<uint64_t> A(MAX_PROBLEM_SIZE);
+    std::vector<int64_t> problem_sizes{MAX_PROBLEM_SIZE >> 5, MAX_PROBLEM_SIZE >> 4, MAX_PROBLEM_SIZE >> 3,
+                                       MAX_PROBLEM_SIZE >> 2, MAX_PROBLEM_SIZE >> 1, MAX_PROBLEM_SIZE};
 
-   int64_t t;
-   int n_problems = problem_sizes.size();
+    std::vector<uint64_t> A(MAX_PROBLEM_SIZE);
 
-   /* For each test size */
-   for (int64_t n : problem_sizes) 
-   {
-      printf("Working on problem size N=%lld \n", n);
+    int64_t t;
+    int n_problems = problem_sizes.size();
 
-      // invoke user code to set up the problem
-      setup(n, &A[0]);
+    for (int64_t n: problem_sizes) {
+        printf("Working on problem size N=%lld \n", n);
 
-      // insert your timer code here
+        // invoke user code to set up the problem
+        setup(n, &A[0]);
 
-      // invoke method to perform the sum
-      t = sum(n, &A[0]);
+        // Start the timer
+        auto start = std::chrono::high_resolution_clock::now();
 
-      // insert your end timer code here, and print out elapsed time for this problem size
+        // invoke method to perform the sum
+        t = sum(n, &A[0]);
 
-      printf(" Sum result = %lld \n",t);
+        // Stop the timer
+        auto end = std::chrono::high_resolution_clock::now();
 
-   } // end loop over problem sizes
+        // Calculate the duration
+        auto duration = std::chrono::duration_cast<std::chrono::microseconds>(end - start);
+
+        // Print out elapsed time for this problem size
+        printf("Elapsed time: %ld microseconds\n", duration.count());
+
+        printf(" Sum result = %lld \n", t);
+    } // end loop over problem sizes
 }
 
 // EOF

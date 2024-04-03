@@ -1,0 +1,9 @@
+# ninja log v5
+0	496	7338798576053960	CMakeFiles/sum_direct.dir/sum_direct.cpp.obj	11c9bd118532edd3
+17	726	7338798578364496	CMakeFiles/benchmark.dir/benchmark.cpp.obj	5d79b119cbfcb03e
+1	458	7338801072120093	CMakeFiles/sum_vector.dir/sum_vector.cpp.obj	1d5dfddcb742b2ec
+459	530	7338801072820254	sum_vector.exe	6fb76f7d3b4f24b5
+2	445	7338801262377633	CMakeFiles/sum_indirect.dir/sum_indirect.cpp.obj	f2546b8a6ee2c517
+445	519	7338801263087798	sum_indirect.exe	136974ec98afe599
+2	302	7338802930421641	CMakeFiles/sum_direct.dir/sum_direct.cpp.obj	11c9bd118532edd3
+303	390	7338802931271839	sum_direct.exe	f758ca5b8d72e238
