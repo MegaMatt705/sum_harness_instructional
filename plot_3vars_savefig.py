@@ -11,20 +11,20 @@ var_names = list(df.columns)
 
 print("var names =", var_names)
 
-# Assuming the MFLOP/s metric is in the second column
-mflops = df[var_names[1]].values.tolist()
+# Assuming the % peak memory bandwidth utilized metric is in the second column
+memory_bandwidth = df[var_names[1]].values.tolist()
 
 plt.figure()
 
-plt.title("Problem Size vs. MFLOP/s")
+plt.title("Problem Size vs. % Peak Memory Bandwidth Utilized")
 
 # Assuming the problem size is in the first column
 problem_sizes = df[var_names[0]].values.tolist()
 
-plt.plot(problem_sizes, mflops, "r-o")
+plt.plot(problem_sizes, memory_bandwidth, "r-o")
 
 plt.xlabel("Problem Sizes")
-plt.ylabel("MFLOP/s")
+plt.ylabel("% Peak Memory Bandwidth Utilized")
 
 plt.grid(axis='both')
 
