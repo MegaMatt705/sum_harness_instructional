@@ -14,27 +14,27 @@ print("var names =", var_names)
 # Assuming the problem size is in the first column
 problem_sizes = df[var_names[0]].values.tolist()
 
-# Simulating % peak memory bandwidth utilized for each code
+# Simulating memory latency for each code
 # This is a placeholder calculation; adjust based on actual data or calculations
-memory_bandwidth_code1 = [problem_size * 0.1 for problem_size in problem_sizes]
-memory_bandwidth_code2 = [problem_size * 0.2 for problem_size in problem_sizes]
-memory_bandwidth_code3 = [problem_size * 0.3 for problem_size in problem_sizes]
+memory_latency_code1 = [problem_size * 0.01 for problem_size in problem_sizes]
+memory_latency_code2 = [problem_size * 0.02 for problem_size in problem_sizes]
+memory_latency_code3 = [problem_size * 0.03 for problem_size in problem_sizes]
 
 plt.figure()
 
-plt.title("Problem Size vs. % Peak Memory Bandwidth Utilized for 3 Codes")
+plt.title("Problem Size vs. Memory Latency for 3 Codes")
 
 xlocs = [i for i in range(len(problem_sizes))]
 
 plt.xticks(xlocs, problem_sizes)
 
-# Plotting % peak memory bandwidth utilized for each code
-plt.plot(memory_bandwidth_code1, "r-o", label=var_names[1])
-plt.plot(memory_bandwidth_code2, "b-x", label=var_names[2])
-plt.plot(memory_bandwidth_code3, "g-^", label=var_names[3])
+# Plotting memory latency for each code
+plt.plot(memory_latency_code1, "r-o", label=var_names[1])
+plt.plot(memory_latency_code2, "b-x", label=var_names[2])
+plt.plot(memory_latency_code3, "g-^", label=var_names[3])
 
 plt.xlabel("Problem Sizes")
-plt.ylabel("% Peak Memory Bandwidth Utilized")
+plt.ylabel("Memory Latency")
 
 plt.legend(loc="best")
 
