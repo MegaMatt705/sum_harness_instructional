@@ -14,10 +14,15 @@ print("var names =", var_names)
 # Assuming the problem size is in the first column
 problem_sizes = df[var_names[0]].values.tolist()
 
-# Assuming MFLOP/s metrics are in the second, third, and fourth columns
-mflops_code1 = df[var_names[1]].values.tolist()
-mflops_code2 = df[var_names[2]].values.tolist()
-mflops_code3 = df[var_names[3]].values.tolist()
+# Assuming time for each code is in the second, third, and fourth columns
+code1_time = df[var_names[1]].values.tolist()
+code2_time = df[var_names[2]].values.tolist()
+code3_time = df[var_names[3]].values.tolist()
+
+# Calculate MFLOP/s for each code
+mflops_code1 = [problem_sizes[i] / code1_time[i] / 1e6 for i in range(len(problem_sizes))]
+mflops_code2 = [problem_sizes[i] / code2_time[i] / 1e6 for i in range(len(problem_sizes))]
+mflops_code3 = [problem_sizes[i] / code3_time[i] / 1e6 for i in range(len(problem_sizes))]
 
 plt.figure()
 
