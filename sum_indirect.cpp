@@ -21,15 +21,3 @@ int64_t sum(int64_t N, uint64_t A[]) {
     }
     return sum;
 }
-
-int main() {
-    int64_t N = 5; // Example size
-    uint64_t A[N]; // Example array
-
-    setup(N, A);
-    int64_t result = sum(N, A);
-
-    printf("The sum is: %lld\n", result);
-
-    return 0;
-}

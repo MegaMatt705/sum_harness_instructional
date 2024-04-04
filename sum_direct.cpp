@@ -13,13 +13,3 @@ int64_t sum(int64_t N, uint64_t A[]) {
     }
     return sum;
 }
-
-int main() {
-    int64_t N = 5; // Example size
-    uint64_t A[] = {1, 2, 3, 4, 5}; // Example array
-
-    setup(N, A);
-    int64_t result = sum(N, A);
-
-    return 0;
-}

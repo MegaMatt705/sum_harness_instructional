@@ -9,3 +9,14 @@
 303	390	7338802931271839	sum_direct.exe	f758ca5b8d72e238
 2	483	7338897698549829	CMakeFiles/benchmark.dir/benchmark.cpp.obj	5d79b119cbfcb03e
 483	594	7338897699650069	sum_direct.exe	f758ca5b8d72e238
+2	600	7339675238582498	CMakeFiles/sum_direct.dir/sum_direct.cpp.obj	11c9bd118532edd3
+2	291	7339675437599108	CMakeFiles/sum_direct.dir/sum_direct.cpp.obj	11c9bd118532edd3
+291	364	7339675438299271	sum_direct.exe	f758ca5b8d72e238
+2	291	7339675680105908	CMakeFiles/sum_indirect.dir/sum_indirect.cpp.obj	f2546b8a6ee2c517
+291	366	7339675680826083	sum_indirect.exe	136974ec98afe599
+2	284	7339676556958553	CMakeFiles/sum_indirect.dir/sum_indirect.cpp.obj	f2546b8a6ee2c517
+1	288	7339676815429091	CMakeFiles/sum_indirect.dir/sum_indirect.cpp.obj	f2546b8a6ee2c517
+288	360	7339676816129256	sum_indirect.exe	136974ec98afe599
+1	289	7339681682983889	CMakeFiles/sum_direct.dir/sum_direct.cpp.obj	11c9bd118532edd3
+2	281	7339682358172031	CMakeFiles/sum_direct.dir/sum_direct.cpp.obj	11c9bd118532edd3
+281	356	7339682358902202	sum_direct.exe	f758ca5b8d72e238
