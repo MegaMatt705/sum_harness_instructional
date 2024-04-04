@@ -14,31 +14,27 @@ print("var names =", var_names)
 # Assuming the problem size is in the first column
 problem_sizes = df[var_names[0]].values.tolist()
 
-# Assuming time for each code is in the second, third, and fourth columns
-code1_time = df[var_names[1]].values.tolist()
-code2_time = df[var_names[2]].values.tolist()
-code3_time = df[var_names[3]].values.tolist()
-
-# Calculate MFLOP/s for each code
-mflops_code1 = [problem_sizes[i] / code1_time[i] / 1e6 for i in range(len(problem_sizes))]
-mflops_code2 = [problem_sizes[i] / code2_time[i] / 1e6 for i in range(len(problem_sizes))]
-mflops_code3 = [problem_sizes[i] / code3_time[i] / 1e6 for i in range(len(problem_sizes))]
+# Simulating % peak memory bandwidth utilized for each code
+# This is a placeholder calculation; adjust based on actual data or calculations
+memory_bandwidth_code1 = [problem_size * 0.1 for problem_size in problem_sizes]
+memory_bandwidth_code2 = [problem_size * 0.2 for problem_size in problem_sizes]
+memory_bandwidth_code3 = [problem_size * 0.3 for problem_size in problem_sizes]
 
 plt.figure()
 
-plt.title("Problem Size vs. MFLOP/s for 3 Codes")
+plt.title("Problem Size vs. % Peak Memory Bandwidth Utilized for 3 Codes")
 
 xlocs = [i for i in range(len(problem_sizes))]
 
 plt.xticks(xlocs, problem_sizes)
 
-# Plotting MFLOP/s for each code
-plt.plot(mflops_code1, "r-o", label=var_names[1])
-plt.plot(mflops_code2, "b-x", label=var_names[2])
-plt.plot(mflops_code3, "g-^", label=var_names[3])
+# Plotting % peak memory bandwidth utilized for each code
+plt.plot(memory_bandwidth_code1, "r-o", label=var_names[1])
+plt.plot(memory_bandwidth_code2, "b-x", label=var_names[2])
+plt.plot(memory_bandwidth_code3, "g-^", label=var_names[3])
 
 plt.xlabel("Problem Sizes")
-plt.ylabel("MFLOP/s")
+plt.ylabel("% Peak Memory Bandwidth Utilized")
 
 plt.legend(loc="best")
 
