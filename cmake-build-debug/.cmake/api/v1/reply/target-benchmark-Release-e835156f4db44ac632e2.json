@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "CMakeFiles/benchmark.dir/./benchmark.cpp.obj"
+			"path" : "CMakeFiles/benchmark.dir/benchmark.cpp.obj"
 		}
 	],
 	"backtrace" : 1,

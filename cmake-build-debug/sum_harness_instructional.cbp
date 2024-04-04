@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="sum_harness_instructional"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="S:/CSC656HW1/sum_harness_instructional/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchmark">
+				<Option output="S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/CMakeFiles/benchmark.dir/benchmark.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="S:/CSC656HW1/sum_harness_instructional/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 benchmark"/>
+					<CompileFile command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchmark/fast">
+				<Option output="S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/CMakeFiles/benchmark.dir/benchmark.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="S:/CSC656HW1/sum_harness_instructional/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 benchmark/fast"/>
+					<CompileFile command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sum_direct">
+				<Option output="S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/sum_direct.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="S:/CSC656HW1/sum_harness_instructional/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 sum_direct"/>
+					<CompileFile command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sum_direct/fast">
+				<Option output="S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/sum_direct.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="S:/CSC656HW1/sum_harness_instructional/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 sum_direct/fast"/>
+					<CompileFile command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sum_vector">
+				<Option output="S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/sum_vector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="S:/CSC656HW1/sum_harness_instructional/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 sum_vector"/>
+					<CompileFile command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sum_vector/fast">
+				<Option output="S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/sum_vector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="S:/CSC656HW1/sum_harness_instructional/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 sum_vector/fast"/>
+					<CompileFile command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sum_indirect">
+				<Option output="S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/sum_indirect.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="S:/CSC656HW1/sum_harness_instructional/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 sum_indirect"/>
+					<CompileFile command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sum_indirect/fast">
+				<Option output="S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/sum_indirect.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="S:/CSC656HW1/sum_harness_instructional/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="S:/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 sum_indirect/fast"/>
+					<CompileFile command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="S:/CSC656HW1/sum_harness_instructional/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="S:/CSC656HW1/sum_harness_instructional/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="S:/CLion 2023.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="S:/CSC656HW1/sum_harness_instructional/benchmark.cpp">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="S:/CSC656HW1/sum_harness_instructional/benchmark.h">
+			<Option target="benchmark"/>
+		</Unit>
+		<Unit filename="S:/CSC656HW1/sum_harness_instructional/cmake-build-debug/CMakeFiles/benchmark.dir/benchmark.cpp.obj">
+			<Option target="sum_direct"/>
+			<Option target="sum_vector"/>
+			<Option target="sum_indirect"/>
+		</Unit>
+		<Unit filename="S:/CSC656HW1/sum_harness_instructional/sum_direct.cpp">
+			<Option target="sum_direct"/>
+		</Unit>
+		<Unit filename="S:/CSC656HW1/sum_harness_instructional/sum_direct.h">
+			<Option target="sum_direct"/>
+		</Unit>
+		<Unit filename="S:/CSC656HW1/sum_harness_instructional/sum_indirect.cpp">
+			<Option target="sum_indirect"/>
+		</Unit>
+		<Unit filename="S:/CSC656HW1/sum_harness_instructional/sum_vector.cpp">
+			<Option target="sum_vector"/>
+		</Unit>
+		<Unit filename="S:/CSC656HW1/sum_harness_instructional/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
