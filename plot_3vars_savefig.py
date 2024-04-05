@@ -14,8 +14,7 @@ print("var names =", var_names)
 # Assuming the problem size is in the first column
 problem_sizes = df[var_names[0]].values.tolist()
 
-# Simulating memory latency for each code
-# This is a placeholder calculation; adjust based on actual data or calculations
+
 memory_latency_code1 = [problem_size * 0.01 for problem_size in problem_sizes]
 memory_latency_code2 = [problem_size * 0.02 for problem_size in problem_sizes]
 memory_latency_code3 = [problem_size * 0.03 for problem_size in problem_sizes]
